@@ -2,7 +2,7 @@
   <div class="default">
     <header class="default__header">
       <div class="default__centerer">
-        <navbar/>
+        <navbar :itemData="navbarItemData"/>
       </div>
     </header>
     <main class="default__main">
@@ -23,6 +23,24 @@
   import navbar from '@/components/navbar';
 
   export default {
+    data() {
+      return {
+        navbarItemData: [
+          {
+            url: '/',
+            caption: 'Главная',
+          },
+          {
+            url: '/about',
+            caption: 'Обо мне',
+          },
+          {
+            url: '/contacts',
+            caption: 'Контакты',
+          },
+        ],
+      }
+    },
     components: {
       navbar
     }

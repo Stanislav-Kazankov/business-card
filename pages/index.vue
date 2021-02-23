@@ -20,6 +20,7 @@
           name: 'photo',
           width: 230,
           height: 325,
+          alt: 'Моё фото',
         }
       }
     }

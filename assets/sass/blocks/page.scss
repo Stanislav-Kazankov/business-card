@@ -1,31 +1,31 @@
 .page {
-    display: grid;
-    align-items: center;
-    min-height: 100%;
+  display: grid;
+  align-items: center;
+  min-height: 100%;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-    margin-top: -10px;
+  margin-top: -10px;
 
-    &__centerer {
-        @include make-centerer();
-    }
+  &__centerer {
+    @include make-centerer();
+  }
 
-    &__h1 {
-        display: block;
-        width: 600px;
-    
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 50px;
-        letter-spacing: 1px;
+  &__h1 {
+    display: block;
+    width: 600px;
 
-        margin-top: 0;
-        margin-bottom: 15px;
-    }
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
 
-    &__p {
-        width: 750px;
-    }
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  &__p {
+    width: 750px;
+  }
 }
