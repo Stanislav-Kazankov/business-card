@@ -1,5 +1,5 @@
 <template>
-  <section class="page">
+  <div class="page">
     <div class="page__centerer">
       <h1 class="page__h1">Мои контакты:</h1>
       <ul class="contacts">
@@ -14,7 +14,7 @@
         </li>
       </ul>
     </div>
-  </section>
+  </div>
 </template>
 
 <style lang="scss" scoped>

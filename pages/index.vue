@@ -1,5 +1,5 @@
 <template>
-  <section class="page">
+  <div class="page">
     <div class="page__centerer">
       <h1 class="page__h1">
         Персональный сайт Станислава Казанкова
@@ -9,7 +9,7 @@
         className="photo-container"
       />
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
