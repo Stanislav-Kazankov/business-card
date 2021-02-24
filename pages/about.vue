@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <section class="page">
     <div class="page__centerer">
       <h1 class="page__h1">Обо мне</h1>
       <p class="page__p">
@@ -9,5 +9,5 @@
         Сейчас я прохожу стажировку в компании AFFINAGE.
       </p>
     </div>
-  </div>
+  </section>
 </template>
