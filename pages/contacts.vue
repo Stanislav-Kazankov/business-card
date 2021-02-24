@@ -6,7 +6,7 @@
         <li class="contacts__item"
           v-for="(contact, index) of contactData"
           :key="index"
-        >   {{contact.caption}}
+        >   {{contact.caption}}:
           <a class="contacts__link"
             :href="contact.url">
             {{contact.value}}
